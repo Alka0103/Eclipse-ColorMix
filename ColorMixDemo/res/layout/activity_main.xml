@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gravity.colormixdemo.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/select1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simplest" />
+
+        <Button
+            android:id="@+id/select2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start with own color (passed as Hex)" />
+
+        <Button
+            android:id="@+id/select3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start with own color (passed as ARGB)" />
+
+        <Button
+            android:id="@+id/select4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Support alpha" />
+
+        <Button
+            android:id="@+id/select5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start with own color (with alpha)" />
+
+        <Button
+            android:id="@+id/select6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hide color preview" />
+
+        <Button
+            android:id="@+id/select7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hide color LEDs" />
+         <Button
+            android:id="@+id/select8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom theme" />
+    </LinearLayout>
+
+</ScrollView>
